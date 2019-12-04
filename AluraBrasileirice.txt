@@ -1,0 +1,13 @@
+*** AULA01 - VAlidação e formatação de dados de CPF, CNPJ e titulo de eleitor
+* CPF
+multiplica os nove primeiros digitos por 10 até 2 (sequencia decrescente)
+soma e divide por 11
+o resto será o primeiro digito verificador
+
+para o segundo digito
+pegamos os dez primeiros digitos (incluindo o verificado calculado anteriormente) e multiplicamos pela sequencia decrescente 11 até 2
+soma-se todos os resultados
+pegamos o total e multiplicamos por dez
+com esse total devidimos por 11
+o resto da divisão por 11 deve gerar o segundo digito
+
